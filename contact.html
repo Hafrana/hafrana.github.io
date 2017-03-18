@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Kryvonos</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Kryvonos <span class="logo_colour">Family</span></a></h1>
+          <h2>Beautiful. Smart. Modest.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="examples.html">Family Tree</a></li>
+          <li><a href="page.html">Photo Album</a></li>
+          <!-- <li><a href="another_page.html">Another Page</a></li> -->
+          <li class="selected"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+       <h3>What's been happening lately</h3>
+        <h4>A walk on the moon</h4>
+        <h5>March 8st, 2017</h5>
+        <p>Well, I think it's time to lift the veil and tell the world who are those mysterious tourist who plan to step on the moon next year. <br /><a href="#">Read more</a></p>
+        <p></p>
+        <h4>Who ate the porridge.</h4>
+        <h5>March 7st, 2017</h5>
+        <p>It's been reported, by magical police, that lots of porridge disappered from Unicorn's pantry.<br /><a href="#">Read more</a></p>
+        <h3>Where else you can find us</h3>
+        <ul>
+          <li><a href="https://plus.google.com/116024389166807667415">Google+</a></li>
+          <li><a href="https://www.youtube.com/channel/UC13RTd9KAbZbqJJXLmMP4kw">Youtube</a></li>
+          <li><a href="https://www.facebook.com/viktoriya.krivonos">Facebook</a></li>
+        </ul>
+        <h3>Search</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Contact Us</h1>
+        <p>Do not hesitate to contact us.</p>
+        <form action="#" method="post">
+          <div class="form_settings">
+            <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
+            <p><span>Email Address</span><input class="contact" type=email name=emailInput value="" required/></p>
+            <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; Viktoriia Kryvonos</a>
+    </div>
+  </div>
+</body>
+</html>
